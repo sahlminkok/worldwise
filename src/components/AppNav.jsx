@@ -4,9 +4,12 @@ import styles from "./AppNav.module.css";
 function AppNav() {
   return (
     <nav className={styles.nav}>
-      <ul className={styles.ul}>
+      <ul>
         <li>
-          <NavLink to="/app">App</NavLink>
+          <NavLink to="cities">Cities</NavLink>
+        </li>
+        <li>
+          <NavLink to="countries">Countries</NavLink>
         </li>
       </ul>
     </nav>
